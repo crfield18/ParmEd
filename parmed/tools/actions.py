@@ -594,7 +594,7 @@ class changeLJPair(Action):
         else:
             return (
                 f'Setting LJ {self.mask1}-{self.mask2} pairwise interaction to have Rmin = '
-                f'{self.rmin:16.5f}, Epsilon = {self.eps:16.5f} and C4_coef = {self.c:16.5f}'
+                f'{self.rmin:16.5f}, Epsilon = {self.eps:16.5f} and C4_coef = {self.c4:16.5f}'
             )
 
     def execute(self):
